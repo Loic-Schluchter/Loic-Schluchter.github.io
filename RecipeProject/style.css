@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('assets/fonts/Outfit/static/Outfit-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'YoungSerif';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+body{
+    background-color: blanchedalmond;
+    margin: 25vw;
+    margin-top: 10vh;
+    font-family: 'Outfit', sans-serif;
+
+}
+.main-title,
+.sub-title {
+    font-family: 'Young Serif', serif;
+}
+
+
+main{
+    background-color: white;
+    padding: 40px;
+    border-radius: 25px;
+
+}
+.main-image{
+    display: flex;
+    justify-content: center;
+}
+.main-image img{
+    width: 100%;
+    border-radius: 25px;
+}
+#prepation-table{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgba(255,247,252,255);
+    height: 10vw;
+    border-radius: 25px;
+}
+#prepation-table h3{
+    margin-left: 25px;
+    margin-bottom: 0px;
+    color: rgba(105,49,75,255);
+}
+#prepation-table ul li{
+    margin-bottom: 10px;
+}
+#prepation-table ul li::marker{
+    color: rgba(137,82,68,255);
+}
+#ingredients ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#ingredients ul li::marker{
+    color: rgba(137,82,68,255);
+}
+#instructions ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+}
+#instructions ol li::marker{
+    color: rgba(137,82,68,255);
+}
+
