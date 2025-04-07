@@ -30,7 +30,7 @@ main{
     align-items: flex-start;
     flex-direction: column;
     background-color: rgba(255,247,252,1);
-    height: 10vw;
+    min-height: 10vw;
     border-radius: 25px;
 }
 #prepation-table h3{
