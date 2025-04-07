@@ -4,19 +4,18 @@ body{
     margin: 25vw;
     margin-top: 10vh;
     font-family: 'Outfit', sans-serif;
-
 }
 .main-title,
 .sub-title {
     font-family: 'Young Serif', serif;
 }
-
-
+.sub-title {
+    color: rgba(137,82,68,1);
+}
 main{
     background-color: white;
     padding: 40px;
     border-radius: 25px;
-
 }
 .main-image{
     display: flex;
@@ -30,20 +29,20 @@ main{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    background-color: rgba(255,247,252,255);
+    background-color: rgba(255,247,252,1);
     height: 10vw;
     border-radius: 25px;
 }
 #prepation-table h3{
     margin-left: 25px;
     margin-bottom: 0px;
-    color: rgba(105,49,75,255);
+    color: rgba(105,49,75,1);
 }
 #prepation-table ul li{
     margin-bottom: 10px;
 }
 #prepation-table ul li::marker{
-    color: rgba(137,82,68,255);
+    color: rgba(137,82,68,1);
 }
 #ingredients ul{
     display: flex;
@@ -51,7 +50,7 @@ main{
     gap: 20px;
 }
 #ingredients ul li::marker{
-    color: rgba(137,82,68,255);
+    color: rgba(137,82,68,1);
 }
 #instructions ol{
     display: flex;
@@ -60,6 +59,6 @@ main{
     gap: 15px;
 }
 #instructions ol li::marker{
-    color: rgba(137,82,68,255);
+    color: rgba(137,82,68,1);
 }
 
