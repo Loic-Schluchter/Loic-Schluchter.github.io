@@ -10,18 +10,84 @@
     .main-image img {
         width: 100vw;
         height: auto;
+        margin: -2rem -2rem 1rem -2rem;
     }
     .main-title {
 
         font-family: 'Young Serif', serif;
         font-size: 27px;
     }
-    .main-text{
+    .main-text p{
         display: flex;
         flex-direction: column;
-        text-align: center;
+        text-align: justify;
     }
-    .main-text p{
+    main{
+        padding: 2rem;
+        max-width: 360px;
+    }
+    #prepation-table{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        background-color: rgba(255,247,252,1);
+        min-height: 5vw;
+        border-radius: 20px;
+        padding-left: 10px;
+
+    }
+    #prepation-table h3{
+        margin-left: 25px;
+        margin-bottom: 0px;
+        color: rgba(105,49,75,1);
+    }
+    #prepation-table ul li{
+        margin-bottom: 10px;
+    }
+    #prepation-table ul li::marker{
+        color: rgba(137,82,68,1);
+    }
+
+    #ingredients ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #ingredients ul li::marker{
+        color: rgba(137,82,68,1);
+    }
+    #instructions {
+        margin-bottom: 40px;
+    }
+    #instructions ol{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 18px;
+        padding-bottom: 10px;
+    }
+    #instructions ol li::marker{
+        color: rgba(137,82,68,1);
+    }
+    .sub-title{
+        color: rgba(137,82,68,1);
+    }
+
+    #instructions ol li::marker{
+        color: rgba(137,82,68,1);
+    }
+    .table-nutrition{
+        width: 100%;
+        border-collapse: collapse;
+
+    }
+    .table-nutrition td{
+        border-bottom: 1px solid black;
+        padding: 10px;
+    }
+    .right{
+        color: rgba(137,82,68,1);
+        font-weight: bold;
     }
 
 }
@@ -32,6 +98,12 @@
         margin: 25vw;
         margin-top: 10vh;
         font-family: 'Outfit', sans-serif;
+    }
+    .main-text{
+        padding:10px
+    }
+    .main-text h1{
+        font-size: 35px;
     }
     .main-title,
     .sub-title {
@@ -44,6 +116,8 @@
         background-color: white;
         padding: 40px;
         border-radius: 25px;
+        max-width: 650px;
+        margin: auto;
     }
     .main-image{
         display: flex;
@@ -57,9 +131,11 @@
         display: flex;
         align-items: flex-start;
         flex-direction: column;
+        justify-content: center;
         background-color: rgba(255,247,252,1);
-        min-height: 10vw;
-        border-radius: 25px;
+        min-height: 5vw;
+        border-radius: 20px;
+
     }
     #prepation-table h3{
         margin-left: 25px;
@@ -80,16 +156,32 @@
     #ingredients ul li::marker{
         color: rgba(137,82,68,1);
     }
+    #instructions {
+        margin-bottom: 40px;
+    }
     #instructions ol{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        gap: 15px;
+        gap: 18px;
+        padding-bottom: 10px;
     }
     #instructions ol li::marker{
         color: rgba(137,82,68,1);
     }
+    .table-nutrition{
+        width: 100%;
+        border-collapse: collapse;
 
+    }
+    .table-nutrition td{
+        border-bottom: 1px solid black;
+        padding: 10px;
+    }
+    .right{
+        color: rgba(137,82,68,1);
+        font-weight: bold;
+    }
 }
 
 
