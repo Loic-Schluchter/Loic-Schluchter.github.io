@@ -2,6 +2,7 @@ body {
     font-family: 'Outfit', sans-serif; /* Set font for the body */
     margin: 0; /* Remove default margin */
     background-color: white; /* White background color */
+    color: gray;
 }
 
 img {
@@ -14,7 +15,10 @@ img {
 .sub-title {
     font-family: 'Young Serif', serif; /* Set custom serif font for titles */
 }
-
+.main-title{
+    font-weight: 100;
+    color: black;
+}
 .sub-title {
     color: rgba(137, 82, 68, 1); /* Set color for subtitle */
 }
