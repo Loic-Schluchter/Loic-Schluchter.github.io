@@ -90,7 +90,7 @@ main {
 /* === Responsive Design === */
 
 /* Smartphones */
-@media (min-width: 480px) and (max-width: 767px) {
+@media(max-width: 767px) {
     main {
         width: 90%;
         padding: 20px 10px; /* Adjust padding for mobile */
