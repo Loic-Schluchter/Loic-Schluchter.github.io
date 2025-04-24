@@ -9,9 +9,8 @@
     <meta name="author" content="Loïc Schluchter"/>
     <meta name="robots" content="index, follow"/>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Assets/Icon.png" type="image/svg+xml">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-
-
 </head>
 <body>
 <header>
@@ -23,14 +22,14 @@
                 <a href="index.html">Home</a>
             </li>
             <li>
-                <a href="projects.html">Projects</a>
+                <a href="projects.html">Projets</a>
             </li>
             <li>
                 <a href="contact.html">Contact</a>
             </li>
         </ul>
     </nav>
-    <h1>Frontend Developer</h1>
+    <h1>Développeur Front-end</h1>
     <hr>
 </header>
 
@@ -39,29 +38,32 @@
         <h2>Projects</h2>
         <ul class="project-list">
             <li>
-                <a href="https://github.com/Loic-Schluchter/Multi-pages-Web" target="_blank">HTML only portfolio</a>
+                <a href="https://github.com/Loic-Schluchter/Multi-pages-Web" rel="noopener" target="_blank">HTML only
+                    portfolio</a>
             </li>
             <li>
-                <a href="https://loic-schluchter.github.io/SocialLinksProject/" target="_blank">Social links profile</a>
+                <a href="https://loic-schluchter.github.io/SocialLinksProject/" rel="noopener" target="_blank">Social
+                    links profile</a>
             </li>
             <li>
-                <a href="https://loic-schluchter.github.io/RecipeProject/" target="_blank">Recipe page</a>
+                <a href="https://loic-schluchter.github.io/RecipeProject/" rel="noopener" target="_blank">Recipe
+                    page</a>
             </li>
         </ul>
     </section>
     <section class="goals-progression">
-        <h2>Goals/Progression</h2>
+        <h2>Buts/Progression</h2>
         <hr>
         <div class="goals">
-            <h3>Current goals</h3>
+            <h3>Buts actuels</h3>
             <div class="goals-wrapper">
-                <p>I’m focusing on building my skills in front-end development, particularly mastering HTML and CSS.
-                    Inspired by creators like Katy_v4, I aim to create visually appealing and responsive websites that
-                    balance both design and functionality. I’m learning through resources like roadmap.sh and working
-                    towards becoming a freelance developer, crafting websites that stand out in terms of aesthetics and
-                    user experience, without diving into streaming.
+                <p>Je me concentre sur le développement de mes compétences en front-end, en particulier sur la maîtrise
+                    du HTML et du CSS. J'apprends à travers des ressources
+                    comme roadmap.sh et des cours Udemy, et je travaille pour devenir développeur freelance, en créant
+                    des sites web qui se distinguent par leur esthétique et leur expérience utilisateur.
                     <br>
-                    <a href="Visit my roadmap profile"> Visit my roadmap profile</a>
+                    <a id ="roadmap-goal"href="https://roadmap.sh/u/loicschluchter" rel="noopener" target="_blank"> Mon profil
+                        Roadmap.sh</a>
                 </p>
             </div>
             <hr>
@@ -69,32 +71,54 @@
         <div class="progression">
             <h3>Progression</h3>
             <div class="progress-wrapper">
-                <label for="HTML">HTML :</label>
-                <progress id="html-progress" value="75" max="100"></progress>
-                <label for="CSS">CSS :</label>
-                <progress id="css-progress" value="75" max="100"></progress>
-                <label for="JavaScript">JavaScript :</label>
-                <progress id="js-progress" value="0" max="100"></progress>
+                <label for="html-progress">HTML :</label>
+                <progress id="html-progress" value="75" max="100" aria-label="Progression HTML: 75%"></progress>
+                <label for="css-progress">CSS :</label>
+                <progress id="css-progress" value="75" max="100" aria-label="Progression CSS: 75%"></progress>
+                <label for="js-progress">JavaScript :</label>
+                <progress id="js-progress" value="0" max="100" aria-label="Progression JavaScript: 0%"></progress>
             </div>
         </div>
         <hr>
     </section>
     <section class="education">
-        <h2>Education</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequuntur dolor, doloribus eum eveniet
-            exercitationem illum ipsum libero minima minus necessitatibus, nobis praesentium, qui rem repellendus
-            repudiandae sequi similique ut?</p>
+        <h2>Formation</h2>
+        <div class="education-container">
+            <article class="education-card">
+                <div class="icon"><span>🎓</span></div>
+                <h3 class="degree-title">Diplôme de l’École de Culture Générale pour Adultes.</h3>
+                <p class="degree-date">2022</p>
+                <p class="degree-description">Obtention du diplôme avec une option santé.</p>
+            </article>
+
+            <article class="education-card">
+                <div class="icon"><span>💻</span></div>
+                <h3 class="degree-title">Formation Développeur Java.</h3>
+                <p class="degree-date">2024</p>
+                <p class="degree-description">Obtention du diplôme avec une option santé.</p>
+            </article>
+
+            <article class="education-card">
+                <div class="icon"><span>🎮</span></div>
+                <h3 class="degree-title">Formation en Développement de Jeux Vidéo.</h3>
+                <p class="degree-date">2025</p>
+                <p class="degree-description">Spécialisation en C# et découverte du développement de jeux vidéo ainsi
+                    que du Game Design.</p>
+            </article>
+        </div>
         <hr>
     </section>
-    <section>
-        <h2>About me</h2>
-        <div>
+    <section class="about-me">
+        <h2>À propos</h2>
+        <div class="about-me-container">
             <p>
-                I'm a self-taught front-end developer with a background in video game development.
-                After studying game design and development, I transitioned into web development, where I now focus on
-                creating clean, responsive, and visually appealing websites.
-                I enjoy blending technical structure with thoughtful design, and I draw inspiration from creators like
-                Katy_v4 as I build my own path in front-end development. </p>
+                Je m'appelle Loïc, et je me forme actuellement au développement front-end. Passionné
+                par la création de sites web à la fois esthétiques et fonctionnels, je progresse sur HTML et CSS, avec
+                JavaScript et React en ligne de mire. <br>
+                Je m’inspire de créateurs comme <a href="https://www.cathydolle.com/about/" rel="noopener" target="_blank">Cathy Dolle</a> et je construis petit à petit mon parcours vers une carrière
+                freelance. J’attache une grande importance au code propre, au responsive design et à une expérience
+                utilisateur soignée.
+                </p>
         </div>
     </section>
 
