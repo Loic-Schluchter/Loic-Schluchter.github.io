@@ -14,9 +14,11 @@
 </head>
 <body>
 <header>
-    <img src="Assets/Icon.png" alt="Profile picture">
-    <h2>Loic Schluchter</h2>
-    <nav>
+    <div class="logo">
+        <img src="Assets/Icon.png" alt="Profile picture">
+        <h2>Loic Schluchter</h2>
+    </div>
+    <nav class="navigation-conatiner">
         <ul>
             <li>
                 <a href="index.html">Home</a>
@@ -34,78 +36,79 @@
 </header>
 
 <main>
-    <section class="goals-progression">
-        <h2>Buts/Progression</h2>
-        <hr>
-        <div class="goals">
-            <h3>Buts actuels</h3>
-            <div class="goals-wrapper">
-                <p>Je me concentre sur le développement de mes compétences en front-end, en particulier sur la maîtrise
-                    du HTML et du CSS. J'apprends à travers des ressources
-                    comme roadmap.sh et des cours Udemy, et je travaille pour devenir développeur freelance, en créant
-                    des sites web qui se distinguent par leur esthétique et leur expérience utilisateur.
-                    <br>
-                    <a id ="roadmap-goal"href="https://roadmap.sh/u/loicschluchter" rel="noopener" target="_blank"> Mon profil
-                        Roadmap.sh</a>
+    <div class = top-container>
+        <section class="about-me">
+            <h2>À propos</h2>
+            <div class="about-me-container">
+                <p>
+                    Je m'appelle Loïc, et je me forme actuellement au développement front-end. Passionné
+                    par la création de sites web à la fois esthétiques et fonctionnels, je progresse sur HTML et CSS, avec
+                    JavaScript et React en ligne de mire. <br>
+                    Je m’inspire de créateurs comme <a href="https://www.cathydolle.com/about/" rel="noopener" target="_blank">Cathy Dolle</a> et je construis petit à petit mon parcours vers une carrière
+                    freelance. J’attache une grande importance au code propre, au responsive design et à une expérience
+                    utilisateur soignée.
                 </p>
             </div>
+        </section>
+        <section class="goals-progression">
+            <h2>Buts/Progression</h2>
             <hr>
-        </div>
-        <div class="progression">
-            <h3>Progression</h3>
-            <div class="progress-wrapper">
-                <label for="html-progress">HTML :</label>
-                <progress id="html-progress" value="75" max="100" aria-label="Progression HTML: 75%"></progress>
-                <label for="css-progress">CSS :</label>
-                <progress id="css-progress" value="75" max="100" aria-label="Progression CSS: 75%"></progress>
-                <label for="js-progress">JavaScript :</label>
-                <progress id="js-progress" value="0" max="100" aria-label="Progression JavaScript: 0%"></progress>
+            <div class="goals">
+                <h3>Buts actuels</h3>
+                <div class="goals-wrapper">
+                    <p>Je me concentre sur le développement de mes compétences en front-end, en particulier sur la maîtrise
+                        du HTML et du CSS. J'apprends à travers des ressources
+                        comme roadmap.sh et des cours Udemy, et je travaille pour devenir développeur freelance, en créant
+                        des sites web qui se distinguent par leur esthétique et leur expérience utilisateur.
+                        <br>
+                        <a id ="roadmap-goal"href="https://roadmap.sh/u/loicschluchter" rel="noopener" target="_blank"> Mon profil
+                            Roadmap.sh</a>
+                    </p>
+                </div>
+                <hr>
             </div>
-        </div>
-        <hr>
-    </section>
-    <section class="education">
-        <h2>Formation</h2>
-        <div class="education-container">
-            <article class="education-card">
-                <div class="icon"><span>🎓</span></div>
-                <h3 class="degree-title">Diplôme de l’École de Culture Générale pour Adultes.</h3>
-                <p class="degree-date">2022</p>
-                <p class="degree-description">Obtention du diplôme avec une option santé.</p>
-            </article>
+            <div class="progression">
+                <h3>Progression</h3>
+                <div class="progress-wrapper">
+                    <label for="html-progress">HTML :</label>
+                    <progress id="html-progress" value="75" max="100" aria-label="Progression HTML: 75%"></progress>
+                    <label for="css-progress">CSS :</label>
+                    <progress id="css-progress" value="75" max="100" aria-label="Progression CSS: 75%"></progress>
+                    <label for="js-progress">JavaScript :</label>
+                    <progress id="js-progress" value="0" max="100" aria-label="Progression JavaScript: 0%"></progress>
+                </div>
+            </div>
+        </section>
+        <section class="education">
+            <h2>Formation</h2>
+            <div class="education-container">
+                <article class="education-card">
+                    <div class="icon"><span>🎓</span></div>
+                    <h3 class="degree-title">Diplôme de l’École de Culture Générale pour Adultes.</h3>
+                    <p class="degree-date">2022</p>
+                    <p class="degree-description">Obtention du diplôme avec une option santé.</p>
+                </article>
 
-            <article class="education-card">
-                <div class="icon"><span>💻</span></div>
-                <h3 class="degree-title">Formation Développeur Java.</h3>
-                <p class="degree-date">2024</p>
-                <p class="degree-description">Obtention du diplôme avec une option santé.</p>
-            </article>
+                <article class="education-card">
+                    <div class="icon"><span>💻</span></div>
+                    <h3 class="degree-title">Formation Développeur Java.</h3>
+                    <p class="degree-date">2024</p>
+                    <p class="degree-description">Obtention du diplôme avec une option santé.</p>
+                </article>
 
-            <article class="education-card">
-                <div class="icon"><span>🎮</span></div>
-                <h3 class="degree-title">Formation en Développement de Jeux Vidéo.</h3>
-                <p class="degree-date">2025</p>
-                <p class="degree-description">Spécialisation en C# et découverte du développement de jeux vidéo ainsi
-                    que du Game Design.</p>
-            </article>
-        </div>
-        <hr>
-    </section>
-    <section class="about-me">
-        <h2>À propos</h2>
-        <div class="about-me-container">
-            <p>
-                Je m'appelle Loïc, et je me forme actuellement au développement front-end. Passionné
-                par la création de sites web à la fois esthétiques et fonctionnels, je progresse sur HTML et CSS, avec
-                JavaScript et React en ligne de mire. <br>
-                Je m’inspire de créateurs comme <a href="https://www.cathydolle.com/about/" rel="noopener" target="_blank">Cathy Dolle</a> et je construis petit à petit mon parcours vers une carrière
-                freelance. J’attache une grande importance au code propre, au responsive design et à une expérience
-                utilisateur soignée.
-                </p>
-        </div>
-    </section>
+                <article class="education-card">
+                    <div class="icon"><span>🎮</span></div>
+                    <h3 class="degree-title">Formation en Développement de Jeux Vidéo.</h3>
+                    <p class="degree-date">2025</p>
+                    <p class="degree-description">Spécialisation en C# et découverte du développement de jeux vidéo ainsi
+                        que du Game Design.</p>
+                </article>
+            </div>
+        </section>
+    </div>
+
 </main>
-<footer style="background-color: #f5f5f5; padding: 20px; text-align: center; font-size: 14px; color: #555;">
+<footer>
     <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
     <p>
         <a href="contact.html" style="color: #555; text-decoration: none;">Me contacter</a> |
