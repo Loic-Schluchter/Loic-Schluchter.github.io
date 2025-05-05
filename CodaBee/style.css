@@ -108,7 +108,7 @@ header h2 {
 
 .CitationContainer img {
     position: relative;
-    left: 50px;
+    left: 49px;
     top: -35px;
 }
 
@@ -123,12 +123,12 @@ header h2 {
 
 .CitationContainer cite {
     position: relative;
-    right: 50px;
+    right: 40px;
     bottom: -35px;
 }
 
 .PresentationContainer {
-    background-color: red;
+    background-color: rgba(236,82,82,255);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -190,7 +190,7 @@ header h2 {
 }
 
 .TarifContainer {
-    background-color: red;
+    background-color: rgba(236,82,82,255);
     width: 100%;
     padding: 30px;
     display: flex;
@@ -319,7 +319,7 @@ header h2 {
 
 .InputButton{
     width: 100%;
-    background-color: red;
+    background-color: rgba(236,82,82,255);
     border-radius: 10px;
     color: white;
 }
@@ -338,7 +338,10 @@ footer h6{
 }
 
 #RedBackground {
-    background-color: red;
+    background-color: rgba(236,82,82,255);
+}
+#WhiteHighlight{
+    color: white;
 }
 
 .Logo {
@@ -351,7 +354,7 @@ footer h6{
 }
 
 .HighlightRouge {
-    color: red;
+    color: rgba(236,82,82,255);
 }
 
 #ChatGPTImage {
