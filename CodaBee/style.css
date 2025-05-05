@@ -1,0 +1,362 @@
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-size: 16px;
+}
+
+header {
+    width: 100vw;
+    height: 30vh;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoContainer {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logoContainer img {
+    width: 60vw;
+    margin: 10px;
+}
+
+.navigationContainer ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.socialLogo {
+    width: 7vw;
+    height: auto;
+    display: block;
+}
+
+.socialContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.socialContainer ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+header h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+
+.PrincipalImageContainer {
+    width: 100vw;
+    height: 35vh;
+    background-image: url('../Images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PrincipalTextContainer {
+    width: 80vw;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 2vh;
+    box-shadow: 1px 2px 4px #000;
+}
+
+.CitationContainer {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CitationContainer img {
+    position: relative;
+    left: 50px;
+    top: -35px;
+}
+
+.CitationContainer blockquote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.CitationContainer cite {
+    position: relative;
+    right: 50px;
+    bottom: -35px;
+}
+
+.PresentationContainer {
+    background-color: red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+
+.PresentationContainer li {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 5px;
+    margin: 20px;
+}
+
+.PresentationContainer h2 {
+    margin: 0;
+}
+
+.FormationsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.FormationsContainer ul {
+    width: 100%;
+    padding: 15px 15px 0 15px;
+}
+
+.CarteCompetence {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 2px 4px #000;
+    padding: 10px;
+    margin: 20px;
+}
+
+.ChatGPTContainer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.ChatGPTContainer h3 {
+    position: relative;
+    right: 10px;
+}
+
+.ChatGPTContainer p {
+    margin: 10px;
+}
+
+.TarifContainer {
+    background-color: red;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.TarifWhiteWrapper {
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.TarifTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.TarifWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    width: 90%;
+}
+
+.BoutonAbonnement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: cadetblue;
+    border-radius: 20px;
+    padding: 5px;
+    width: 60%;
+}
+
+.BoutonAbonnement a {
+    color: white;
+}
+
+#TarifList {
+    width: 80%;
+    text-align: left;
+    padding-left: 20px;
+    margin: 0 auto;
+    list-style-type: disc;
+    color: grey;
+}
+
+.MethodeContainer {
+    width: 100vw;
+    text-align: center;
+}
+
+.MethodeContainer ul {
+    padding: 20px;
+}
+
+.MethodeCard {
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+    border: 2px solid lightgrey;
+}
+
+.MethodeCard p {
+    padding: 10px;
+}
+.SecondaireImageContainer{
+    width: 100%;
+    background-image: url('../Images/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 15px 15px 10px;
+}
+.LogoSecondaryContainer{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+.LogoSecondaryContainer h2{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.NewsletterContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: white;
+    margin: 20px auto 0;
+    text-align: center;
+}
+.NewsletterContainer h3 {
+    padding: 0 20px 0px 20px;
+}
+.NewsletterContainer form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 10px;
+    width: 90%;
+}
+.NewsletterContainer form input {
+    border-radius: 10px;
+    padding: 4px;
+    width: 100%;
+}
+
+.InputButton{
+    width: 100%;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+footer img{
+}
+footer h6{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#RedBackground {
+    background-color: red;
+}
+
+.Logo {
+    width: 60vw;
+    margin: 20px;
+}
+
+#QuoteImage {
+    width: 10%;
+}
+
+.HighlightRouge {
+    color: red;
+}
+
+#ChatGPTImage {
+    width: 35vw;
+    height: auto;
+    border-radius: 20px;
+    float: left;
+}
