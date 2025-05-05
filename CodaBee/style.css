@@ -79,7 +79,7 @@ header h2 {
 .PrincipalImageContainer {
     width: 100vw;
     height: 35vh;
-    background-image: url('CodaBee/Images/bg1.jpg');
+    background-image: url('Images/bg1.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -270,7 +270,7 @@ header h2 {
 }
 .SecondaireImageContainer{
     width: 100%;
-    background-image: url('CodaBee/Images/bg2.jpg');
+    background-image: url('Images/bg2.jpg');
     background-size: cover;
     background-position: center;
     padding: 15px 15px 10px;
