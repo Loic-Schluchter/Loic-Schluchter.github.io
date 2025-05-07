@@ -7,6 +7,9 @@ ul {
     padding: 0;
     margin: 0;
 }
+hr{
+    width: 100vw;
+}
 
 * {
     box-sizing: border-box;
@@ -19,63 +22,26 @@ body {
     height: 100vh;
     font-size: 16px;
 }
-
-header {
-    width: 100vw;
-    height: 30vh;
-    background-color: cornflowerblue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+#RedBackground {
+    background-color: rgba(236,82,82,255);
+}
+.RedBG{
+    background-color: #F9CBCB;
 }
 
-.logoContainer {
-    width: 100vw;
-    height: auto;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.logoContainer img {
-    width: 60vw;
-    margin: 10px;
-}
-
-.navigationContainer ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    margin: 10px;
-}
-
-.socialLogo {
-    width: 7vw;
-    height: auto;
-    display: block;
-}
-
-.socialContainer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.socialContainer ul {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-header h2 {
-    text-align: center;
+#WhiteHighlight{
     color: white;
-    margin-bottom: 0;
 }
 
+
+
+#QuoteImage {
+    width: 10%;
+}
+
+.HighlightRouge {
+    color: rgba(236,82,82,255);
+}
 .PrincipalImageContainer {
     width: 100vw;
     height: 35vh;
@@ -87,279 +53,693 @@ header h2 {
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 767px){
+    .Logo {
+        width: 60vw;
+        margin: 20px;
+    }
+    header {
+        width: 100vw;
+        height: 30vh;
+        background-color: cornflowerblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
-.PrincipalTextContainer {
-    width: 80vw;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 20px;
-    padding: 10px;
-    text-align: center;
-    margin-top: 2vh;
-    box-shadow: 1px 2px 4px #000;
+    .logoContainer {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .logoContainer img {
+        width: 60vw;
+        margin: 10px;
+    }
+
+    .navigationContainer ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin: 10px;
+    }
+
+    .socialLogo {
+        width: 7vw;
+        height: auto;
+        display: block;
+    }
+
+    .socialContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .socialContainer ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    header h2 {
+        text-align: center;
+        color: white;
+        margin-bottom: 0;
+    }
+
+    .PrincipalTextContainer {
+        width: 80vw;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2vh;
+        box-shadow: 1px 2px 4px #000;
+    }
+
+    .CitationContainer {
+        width: 100vw;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .CitationContainer img {
+        position: relative;
+        left: 49px;
+        top: -35px;
+    }
+
+    .CitationContainer blockquote {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 50%;
+    }
+
+    .CitationContainer cite {
+        position: relative;
+        right: 40px;
+        bottom: -35px;
+    }
+
+    .PresentationContainer {
+        background-color: rgba(236,82,82,255);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .PresentationContainer li {
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px;
+        padding: 5px;
+        margin: 20px;
+    }
+
+    .PresentationContainer h2 {
+        margin: 0;
+    }
+
+    .FormationsContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .FormationsContainer ul {
+        width: 100%;
+        padding: 15px 15px 0 15px;
+    }
+
+    .CarteCompetence {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        box-shadow: 1px 2px 4px #000;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .ChatGPTContainer {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .ChatGPTContainer h3 {
+        position: relative;
+        right: 10px;
+    }
+
+    .ChatGPTContainer p {
+        margin: 10px;
+    }
+
+    .TarifContainer {
+        background-color: rgba(236,82,82,255);
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .TarifWhiteWrapper {
+        background-color: white;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .TarifTitle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .TarifWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid grey;
+        width: 90%;
+    }
+
+    .BoutonAbonnement {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        background-color: cadetblue;
+        border-radius: 20px;
+        padding: 5px;
+        width: 60%;
+    }
+
+    .BoutonAbonnement a {
+        color: white;
+    }
+
+    #TarifList {
+        width: 80%;
+        text-align: left;
+        padding-left: 20px;
+        margin: 0 auto;
+        list-style-type: disc;
+        color: grey;
+    }
+
+    .MethodeContainer {
+        width: 100vw;
+        text-align: center;
+    }
+
+    .MethodeContainer ul {
+        padding: 20px;
+    }
+
+    .MethodeCard {
+        display: flex;
+        flex-direction: column;
+        margin: 1px;
+        border: 2px solid lightgrey;
+    }
+
+    .MethodeCard p {
+        padding: 10px;
+    }
+    .SecondaireImageContainer{
+        width: 100%;
+        background-image: url('images/bg2.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 15px 15px 10px;
+    }
+    .LogoSecondaryContainer{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.7)
+    }
+    .LogoSecondaryContainer h2{
+        color: white;
+        text-align: center;
+        margin: 0;
+    }
+    .NewsletterContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        background-color: white;
+        margin: 20px auto 0;
+        text-align: center;
+    }
+    .NewsletterContainer h3 {
+        padding: 0 20px 0px 20px;
+    }
+    .NewsletterContainer form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        margin: 10px;
+        width: 90%;
+    }
+    .NewsletterContainer form input {
+        border-radius: 10px;
+        padding: 4px;
+        width: 100%;
+    }
+
+    .InputButton{
+        width: 100%;
+        background-color: rgba(236,82,82,255);
+        border-radius: 10px;
+        color: white;
+    }
+    footer{
+        width: 100%;
+        text-align: center;
+        background-color: cornflowerblue;
+    }
+    footer img{
+    }
+    footer h6{
+        text-align: center;
+        color: white;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    #ChatGPTImage {
+        width: 35vw;
+        height: auto;
+        border-radius: 20px;
+        float: left;
+    }
+}
+@media (min-width: 1024px){
+
+    header {
+        width: 100vw;
+        height: 20vh;
+        background-color: cornflowerblue;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    .logoContainer {
+        max-width: 30%;
+        height: 100%;
+        align-self: flex-start;
+        position: relative;
+        top: 3rem
+
+    }
+    .logoContainer img {
+        max-width: 80%;
+    }
+    .navigationContainer ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin: 0px 15px 5px 5px;
+        font-size: 2vh;
+    }
+    .socialLogo {
+        width: 2vw;
+        height: auto;
+        display: block;
+    }
+
+    .socialContainer {
+        width: auto;
+        display: flex;
+        align-self: center;
+    }
+
+    .socialContainer ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    header h2 {
+        width: auto;
+        align-self: flex-start;
+        position: relative;
+        left: 20vw;
+        text-align: center;
+        color: white;
+        margin-bottom: 5px;
+    }
+    .PrincipalTextContainer {
+        min-width: 40vw;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 20px;
+        padding: 2vh;
+        text-align: center;
+        margin-top: 2vh;
+        box-shadow: 1px 2px 4px #000;
+        font-size: 2.3vh;
+
+    }
+    .PrincipalTextContainer h3{
+        margin: 0;
+        padding: 0;
+    }
+    .CitationContainer {
+        width: 100vw;
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .CitationContainer img {
+
+        position: relative;
+        left: 2vw;
+    }
+
+    .CitationContainer blockquote {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 50%;
+        font-size: 2vw;
+        color: lightgrey;
+    }
+
+    .CitationContainer cite {
+        font-size: 4vh;
+        position: relative;
+        right: 70px;
+        bottom: -35px;
+    }
+    .PresentationContainer {
+        background-color: rgba(236,82,82,255);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .PresentationContainer li {
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px;
+        padding: 5px;
+        margin: 20px;
+    }
+
+    .PresentationContainer h2 {
+        margin: 0;
+    }
+    .FormationsContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+
+    }
+
+    .FormationsContainer ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        box-shadow: 1px 1px 4px lightgray;
+    }
+
+    .CarteCompetence {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+
+    }
+    .ChatGPTContainer {
+        width: 100%;
+        max-height: 40vh;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .ChatGPTContainer h3 {
+        position: relative;
+        right: 10px;
+    }
+
+    .ChatGPTContainer p {
+        margin: 10px;
+    }
+    #ChatGPTImage {
+        max-width: 25vw;
+        height: auto;
+        border-radius: 20px;
+        float: left;
+        position: relative;
+        bottom:  20px;
+    }
+    .TarifContainer {
+        background-color: rgba(236,82,82,255);
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .TarifWhiteWrapper {
+        background-color: white;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .TarifTitle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .TarifWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid grey;
+        width: 90%;
+    }
+
+    .BoutonAbonnement {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        background-color: cadetblue;
+        border-radius: 20px;
+        padding: 5px;
+        min-width: 20%;
+    }
+
+    .BoutonAbonnement a {
+        color: white;
+    }
+
+    #TarifList {
+        width: 80%;
+        text-align: left;
+        margin: 0;
+        list-style-type: disc;
+        color: grey;
+    }
+    .TarifDescription {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .MethodeContainer {
+        width: 100vw;
+        text-align: center;
+        margin: 4vh;
+    }
+
+    .MethodeContainer ul {
+        padding: 20px;
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .MethodeCard {
+        width: 30%;
+        min-height: 12vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid lightgrey;
+        padding: 30px;
+     }
+    .MethodeCard p {
+        padding: 10px;
+    }
+    .MethodeContainer h3{
+        margin: 10px;;
+    }
+
+    .SecondaireImageContainer{
+        width: 100%;
+        height: 50vh;
+        background-image: url('images/bg2.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 15px 15px 10px;
+        display: flex;
+    }
+    .LogoSecondaryContainer{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.7)
+    }
+    .LogoSecondaryContainer img {
+        width: 60%;
+        margin: 20px;
+    }
+    .LogoSecondaryContainer h2{
+        color: white;
+        text-align: center;
+        margin: 0;
+    }
+    .NewsletterContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+        background-color: white;
+        text-align: center;
+    }
+    .NewsletterContainer img{
+        max-width: 50%;
+    }
+
+    .NewsletterContainer form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        width: 90%;
+        height: 100%;
+    }
+    .NewsletterContainer form input {
+        border-radius: 10px;
+        padding: 8px;
+        width: 100%;
+    }
+
+    .InputButton{
+        width: 100%;
+        background-color: rgba(236,82,82,255);
+        border-radius: 10px;
+        color: white;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 35vh;
+        text-align: center;
+        background-color: cornflowerblue;
+    }
+    footer img{
+        width: 30%;
+        height: auto;
+        margin: 20px;
+    }
+    footer h6{
+        text-align: center;
+        color: white;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .Responsive-br{
+        display:none;
+    }
+    #QuoteImage {
+        width: 7%;
+    }
+    .ShadowBox{
+        box-shadow: 1px 2px 4px lightgray;
+    }
+    .DarkRed{
+        background-color: rgba(236,82,82,255);
+        color: white;
+        position: Relative;
+        top: -30px
+    }
+
 }
 
-.CitationContainer {
-    width: 100vw;
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.CitationContainer img {
-    position: relative;
-    left: 49px;
-    top: -35px;
-}
-
-.CitationContainer blockquote {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 50%;
-}
-
-.CitationContainer cite {
-    position: relative;
-    right: 40px;
-    bottom: -35px;
-}
-
-.PresentationContainer {
-    background-color: rgba(236,82,82,255);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 30px;
-}
-
-.PresentationContainer li {
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 15px;
-    padding: 5px;
-    margin: 20px;
-}
-
-.PresentationContainer h2 {
-    margin: 0;
-}
-
-.FormationsContainer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-.FormationsContainer ul {
-    width: 100%;
-    padding: 15px 15px 0 15px;
-}
-
-.CarteCompetence {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    box-shadow: 1px 2px 4px #000;
-    padding: 10px;
-    margin: 20px;
-}
-
-.ChatGPTContainer {
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-}
-
-.ChatGPTContainer h3 {
-    position: relative;
-    right: 10px;
-}
-
-.ChatGPTContainer p {
-    margin: 10px;
-}
-
-.TarifContainer {
-    background-color: rgba(236,82,82,255);
-    width: 100%;
-    padding: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.TarifWhiteWrapper {
-    background-color: white;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-}
-
-.TarifTitle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.TarifWrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid grey;
-    width: 90%;
-}
-
-.BoutonAbonnement {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    background-color: cadetblue;
-    border-radius: 20px;
-    padding: 5px;
-    width: 60%;
-}
-
-.BoutonAbonnement a {
-    color: white;
-}
-
-#TarifList {
-    width: 80%;
-    text-align: left;
-    padding-left: 20px;
-    margin: 0 auto;
-    list-style-type: disc;
-    color: grey;
-}
-
-.MethodeContainer {
-    width: 100vw;
-    text-align: center;
-}
-
-.MethodeContainer ul {
-    padding: 20px;
-}
-
-.MethodeCard {
-    display: flex;
-    flex-direction: column;
-    margin: 1px;
-    border: 2px solid lightgrey;
-}
-
-.MethodeCard p {
-    padding: 10px;
-}
-.SecondaireImageContainer{
-    width: 100%;
-    background-image: url('images/bg2.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 15px 15px 10px;
-}
-.LogoSecondaryContainer{
-    width: 90%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.7)
-}
-.LogoSecondaryContainer h2{
-    color: white;
-    text-align: center;
-    margin: 0;
-}
-.NewsletterContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    background-color: white;
-    margin: 20px auto 0;
-    text-align: center;
-}
-.NewsletterContainer h3 {
-    padding: 0 20px 0px 20px;
-}
-.NewsletterContainer form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    margin: 10px;
-    width: 90%;
-}
-.NewsletterContainer form input {
-    border-radius: 10px;
-    padding: 4px;
-    width: 100%;
-}
-
-.InputButton{
-    width: 100%;
-    background-color: rgba(236,82,82,255);
-    border-radius: 10px;
-    color: white;
-}
-footer{
-    width: 100%;
-    text-align: center;
-    background-color: cornflowerblue;
-}
-footer img{
-}
-footer h6{
-    text-align: center;
-    color: white;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-#RedBackground {
-    background-color: rgba(236,82,82,255);
-}
-#WhiteHighlight{
-    color: white;
-}
-
-.Logo {
-    width: 60vw;
-    margin: 20px;
-}
-
-#QuoteImage {
-    width: 10%;
-}
-
-.HighlightRouge {
-    color: rgba(236,82,82,255);
-}
-
-#ChatGPTImage {
-    width: 35vw;
-    height: auto;
-    border-radius: 20px;
-    float: left;
-}
