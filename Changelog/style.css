@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#grey-version{
+    color: grey;
+}
+{
+
+}
+.main-title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1vh 5vh 5vh;
+}
+.timeline{
+    border: black solid 2px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    padding: 4rem;
+    box-shadow: 5px 5px 10px #26282A;;
+
+
+}
+.timeline h3{
+    font-weight: 400;
+    font-size: 1rem;
+
+
+}
+.timeline-container h3:hover{
+    color: indianred;
+    transform: scale(1.02);
+    transition: 0.6s;
+}
+.timeline-date{
+    color: gray;
+    width: 140px;
+    text-align: center;
+    flex-shrink: 0;
+
+}
+
+.timeline-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 100%;
+}
+
+.timeline-date {
+    width: 140px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.timeline-mark {
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.timeline-line {
+    background-color: black;
+    height: 80px;
+    width: 3px;
+}
+
+.timeline-dot {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+}
+
+.timeline-comment {
+    flex: 1;
+    word-break: break-word;
+}
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #26282A;
+    color: white;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 1.2rem;
+    padding: 1vh;
+    transition: 0.3s ease;
+}
+a:hover{
+    color: indianred;
+}
