@@ -117,7 +117,7 @@ body{
     background-color: #1E1E1E;
     color: white;
     border-radius: 25px;
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     height: auto;
@@ -125,8 +125,8 @@ body{
 .stars{
     color:yellow;
     font-size: 1.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 .selector{
     flex-direction: column;
